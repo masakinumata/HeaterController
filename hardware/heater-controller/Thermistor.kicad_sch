@@ -548,6 +548,28 @@
 		(color 0 0 0 0)
 		(uuid "aabaef8c-3051-46e8-8eba-a70183444e46")
 	)
+	(junction
+		(at 210.82 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca4faab2-784f-40ca-800d-d2a0f5f17c17")
+	)
+	(junction
+		(at 200.66 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea9078fd-846f-41a3-b942-3304e469bb3b")
+	)
+	(wire
+		(pts
+			(xy 194.31 87.63) (xy 200.66 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13523058-c80d-4d43-8e8f-b0b08f91ba0e")
+	)
 	(wire
 		(pts
 			(xy 144.78 74.93) (xy 144.78 78.74)
@@ -560,6 +582,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 86.36) (xy 200.66 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a173ebe-081b-4959-9286-e1be3654a07b")
+	)
+	(wire
+		(pts
 			(xy 138.43 87.63) (xy 144.78 87.63)
 		)
 		(stroke
@@ -567,6 +599,16 @@
 			(type default)
 		)
 		(uuid "2e3ce255-ab6e-4da6-9b4d-350d48597699")
+	)
+	(wire
+		(pts
+			(xy 200.66 87.63) (xy 210.82 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38c2818b-628d-4630-a3e2-9e906b97856b")
 	)
 	(wire
 		(pts
@@ -587,6 +629,56 @@
 			(type default)
 		)
 		(uuid "4f9e376e-337a-4b27-ac5a-8562d46d07bc")
+	)
+	(wire
+		(pts
+			(xy 210.82 76.2) (xy 210.82 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51189162-2196-484e-8f40-459d92617395")
+	)
+	(wire
+		(pts
+			(xy 210.82 78.74) (xy 210.82 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d9fdffe-809f-4a13-bba7-ada5431ee4b8")
+	)
+	(wire
+		(pts
+			(xy 210.82 99.06) (xy 210.82 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c655ebc-1294-4e88-bb6c-b5a529e3ea4c")
+	)
+	(wire
+		(pts
+			(xy 212.09 76.2) (xy 210.82 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e430741-aa48-45a6-87b5-b471e7ee435b")
+	)
+	(wire
+		(pts
+			(xy 210.82 87.63) (xy 210.82 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aae3d42e-23ac-4725-a41b-9bac5d577499")
 	)
 	(wire
 		(pts
@@ -630,6 +722,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 74.93) (xy 200.66 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea1ce35a-624d-48f2-bfc3-316d6383de9d")
+	)
+	(wire
+		(pts
 			(xy 154.94 78.74) (xy 156.21 78.74)
 		)
 		(stroke
@@ -637,6 +739,16 @@
 			(type default)
 		)
 		(uuid "ee003653-0867-4fd4-9c7c-c069b574186a")
+	)
+	(wire
+		(pts
+			(xy 210.82 78.74) (xy 212.09 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f64303b5-1511-4ec3-be1c-05224f725843")
 	)
 	(wire
 		(pts
@@ -648,7 +760,7 @@
 		)
 		(uuid "fd8b548a-6bea-40dc-bc37-3624db7ddc1f")
 	)
-	(hierarchical_label "R_Thermistor"
+	(hierarchical_label "R_Thermistor1"
 		(shape input)
 		(at 138.43 87.63 180)
 		(effects
@@ -658,6 +770,39 @@
 			(justify right)
 		)
 		(uuid "314bcdda-2d9f-4c1e-86e4-e92a70787f17")
+	)
+	(hierarchical_label "AGND"
+		(shape input)
+		(at 210.82 104.14 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "468f2286-564c-447e-91af-92038fb0c943")
+	)
+	(hierarchical_label "AGND"
+		(shape input)
+		(at 200.66 74.93 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5a9b9bec-5025-4e5e-9bc3-c1eb6b035923")
+	)
+	(hierarchical_label "R_Thermistor2"
+		(shape input)
+		(at 194.31 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5f723b2e-48a4-4fc9-bed9-99f3ffc20c11")
 	)
 	(hierarchical_label "AGND"
 		(shape input)
@@ -700,7 +845,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Thermistor"
+		(property "Value" "Thermistor1"
 			(at 163.83 78.7399 0)
 			(effects
 				(font
@@ -737,15 +882,155 @@
 			)
 		)
 		(pin "1"
-			(uuid "9330b0d3-dc81-4f54-ab31-526d95add4fb")
+			(uuid "68fcfd0b-687d-49f1-a254-ac1c3c3136aa")
 		)
 		(pin "2"
-			(uuid "26cce23a-cc99-4a37-8fdc-3d862c8dc56f")
+			(uuid "454a67b2-d531-40d6-b098-716a318e3cbd")
 		)
 		(instances
 			(project ""
 				(path "/10d663fd-57cf-4e41-a739-41ba32dcef00/20f0e664-d978-4011-b64d-ec90fb1066fa"
 					(reference "J301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 200.66 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "464caac2-4966-4134-ab78-997c69d02c3e")
+		(property "Reference" "C302"
+			(at 204.47 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 204.47 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 201.6252 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 200.66 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ebdca20c-4140-4b87-a071-8b4a433f3c5c")
+		)
+		(pin "2"
+			(uuid "c3b11994-ed24-49ec-bf55-60fd284d536c")
+		)
+		(instances
+			(project "heater-controller"
+				(path "/10d663fd-57cf-4e41-a739-41ba32dcef00/20f0e664-d978-4011-b64d-ec90fb1066fa"
+					(reference "C302")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 210.82 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5fb6c4ad-9f43-452e-ac0f-165238e38c28")
+		(property "Reference" "R302"
+			(at 213.36 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 213.36 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+			(at 209.042 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 210.82 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a676cb98-ac68-49e1-84c4-7ad66db7fe4d")
+		)
+		(pin "2"
+			(uuid "acdfeb77-356b-4a92-ac09-4f191a2710fe")
+		)
+		(instances
+			(project "heater-controller"
+				(path "/10d663fd-57cf-4e41-a739-41ba32dcef00/20f0e664-d978-4011-b64d-ec90fb1066fa"
+					(reference "R302")
 					(unit 1)
 				)
 			)
@@ -807,15 +1092,151 @@
 			)
 		)
 		(pin "1"
-			(uuid "20c6fa01-0583-4c60-a25e-1397a78ccf87")
+			(uuid "1451168d-b1a2-45c6-8349-3aff1db2129d")
 		)
 		(pin "2"
-			(uuid "db9b09aa-37a4-4fd6-97fd-b01f95e557f8")
+			(uuid "146a0683-9ed6-455b-8ea3-bc4f52f05dcf")
 		)
 		(instances
 			(project ""
 				(path "/10d663fd-57cf-4e41-a739-41ba32dcef00/20f0e664-d978-4011-b64d-ec90fb1066fa"
 					(reference "C301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 210.82 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d7663c8-83ca-405d-837e-ffed656165c1")
+		(property "Reference" "#PWR011"
+			(at 210.82 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 210.82 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 210.82 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d051c78f-93ec-40a9-8e87-c8218b666845")
+		)
+		(instances
+			(project "heater-controller"
+				(path "/10d663fd-57cf-4e41-a739-41ba32dcef00/20f0e664-d978-4011-b64d-ec90fb1066fa"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 217.17 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e3fdb4a-00ff-4a75-9f6b-a712896d52f3")
+		(property "Reference" "J302"
+			(at 219.71 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Thermistor2"
+			(at 219.71 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
+			(at 217.17 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 217.17 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c8d56b9-8666-4679-b2bf-384f5cd0de31")
+		)
+		(pin "2"
+			(uuid "810d2c2c-15b9-4863-87df-ce32340d8d1e")
+		)
+		(instances
+			(project "heater-controller"
+				(path "/10d663fd-57cf-4e41-a739-41ba32dcef00/20f0e664-d978-4011-b64d-ec90fb1066fa"
+					(reference "J302")
 					(unit 1)
 				)
 			)
@@ -831,7 +1252,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e7a55b3-3745-4497-8b28-18a8dcfcab51")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR018"
 			(at 154.94 72.39 0)
 			(effects
 				(font
@@ -876,12 +1297,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "325855ed-d5fa-4d5a-add7-bab48981499a")
+			(uuid "0f917256-938a-4d08-a39f-ef1e617022f6")
 		)
 		(instances
 			(project ""
 				(path "/10d663fd-57cf-4e41-a739-41ba32dcef00/20f0e664-d978-4011-b64d-ec90fb1066fa"
-					(reference "#PWR011")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -943,10 +1364,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "ae500bce-fa0c-49b4-82ac-fb64b8a2ca1b")
+			(uuid "df64d44c-e335-428c-ac53-69e9f7fef106")
 		)
 		(pin "2"
-			(uuid "9dd453fe-875b-4b39-8426-925b62431cab")
+			(uuid "f98fbd35-218f-45e8-9cdc-eda9cbb6078e")
 		)
 		(instances
 			(project "heater-controller"

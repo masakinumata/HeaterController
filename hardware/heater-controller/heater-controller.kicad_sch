@@ -1992,10 +1992,6 @@
 		(uuid "6cfce2ac-ab09-4a49-afec-b2093e37b80f")
 	)
 	(no_connect
-		(at 90.17 116.84)
-		(uuid "03bd609f-b926-4a98-bea1-4ee840b0b304")
-	)
-	(no_connect
 		(at 90.17 93.98)
 		(uuid "0b40e723-c51a-4878-beea-23ed0feb4840")
 	)
@@ -2012,10 +2008,6 @@
 		(uuid "2592f39b-9a3e-45e2-bc03-734fb69ce3a6")
 	)
 	(no_connect
-		(at 90.17 88.9)
-		(uuid "29e59f32-5b45-4dc0-bab1-f8f04fabe24a")
-	)
-	(no_connect
 		(at 90.17 106.68)
 		(uuid "2d7b8778-817d-4648-b337-11a698dabf57")
 	)
@@ -2026,10 +2018,6 @@
 	(no_connect
 		(at 44.45 114.3)
 		(uuid "3ec7ea3c-fbde-4e45-ae46-45504809ea81")
-	)
-	(no_connect
-		(at 90.17 91.44)
-		(uuid "56a12555-afba-4465-a7bd-7df244d752ad")
 	)
 	(no_connect
 		(at 44.45 88.9)
@@ -2101,6 +2089,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 116.84) (xy 127 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0386b20b-635b-4f42-8486-f8bcff6e043a")
+	)
+	(wire
+		(pts
 			(xy 90.17 111.76) (xy 109.22 111.76)
 		)
 		(stroke
@@ -2111,7 +2109,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 90.17) (xy 127 90.17)
+			(xy 109.22 88.9) (xy 127 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2141,6 +2139,46 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 88.9) (xy 97.79 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f6e56dc-589e-4881-b2d0-85911ecf45c1")
+	)
+	(wire
+		(pts
+			(xy 97.79 88.9) (xy 97.79 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fbfa25c-7386-42e0-8d71-6728b9f6a386")
+	)
+	(wire
+		(pts
+			(xy 90.17 91.44) (xy 104.14 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "417ba261-b157-4fc1-9a87-d4b06484020c")
+	)
+	(wire
+		(pts
+			(xy 99.06 86.36) (xy 99.06 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ada8521-e412-4215-8e47-c0567e76ba5c")
+	)
+	(wire
+		(pts
 			(xy 93.98 34.29) (xy 90.17 34.29)
 		)
 		(stroke
@@ -2151,23 +2189,23 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 111.76) (xy 109.22 90.17)
+			(xy 99.06 86.36) (xy 90.17 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7898e5eb-68da-456a-ba47-3131c7829024")
+	)
+	(wire
+		(pts
+			(xy 109.22 111.76) (xy 109.22 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "99b7fa30-48bd-4071-86b2-5196300e739b")
-	)
-	(wire
-		(pts
-			(xy 127 118.11) (xy 109.22 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e652f4e-1235-40a4-a9a8-11ac01376453")
 	)
 	(wire
 		(pts
@@ -2191,6 +2229,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 96.52) (xy 127 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a96df240-774a-4dfe-be31-ab9aed303af7")
+	)
+	(wire
+		(pts
 			(xy 74.93 34.29) (xy 76.2 34.29)
 		)
 		(stroke
@@ -2198,6 +2246,16 @@
 			(type default)
 		)
 		(uuid "b593ad25-47a2-417e-9936-4c24e4a08562")
+	)
+	(wire
+		(pts
+			(xy 104.14 86.36) (xy 127 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7c1b946-0075-4eb8-81eb-bb550e771d98")
 	)
 	(wire
 		(pts
@@ -2221,7 +2279,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 121.92) (xy 90.17 121.92)
+			(xy 90.17 121.92) (xy 127 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2241,13 +2299,13 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 86.36) (xy 127 86.36)
+			(xy 127 93.98) (xy 99.06 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d3858a88-64c8-4791-8c16-545487e83320")
+		(uuid "da56a82e-f934-451e-b59f-4ca8bc215534")
 	)
 	(wire
 		(pts
@@ -2258,16 +2316,6 @@
 			(type default)
 		)
 		(uuid "e6a7085c-20af-402b-aa28-0b1b3a4e6ca7")
-	)
-	(wire
-		(pts
-			(xy 109.22 118.11) (xy 109.22 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9c0a985-f1ee-4233-9934-b3703e7a4eab")
 	)
 	(wire
 		(pts
@@ -2288,6 +2336,16 @@
 			(type default)
 		)
 		(uuid "eead1547-c24b-4c5c-be5d-1573d81bb567")
+	)
+	(wire
+		(pts
+			(xy 104.14 91.44) (xy 104.14 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f89b4ae9-2abb-45eb-92cd-a4b7bdc2b532")
 	)
 	(symbol
 		(lib_id "Switch:SW_SPST")
@@ -2367,7 +2425,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39b4514d-0b02-429f-911b-bb09e00fd7b9")
-		(property "Reference" "A1"
+		(property "Reference" "A101"
 			(at 69.4533 133.35 0)
 			(effects
 				(font
@@ -2535,7 +2593,7 @@
 		(instances
 			(project ""
 				(path "/10d663fd-57cf-4e41-a739-41ba32dcef00"
-					(reference "A1")
+					(reference "A101")
 					(unit 1)
 				)
 			)
@@ -3091,7 +3149,7 @@
 	)
 	(sheet
 		(at 127 110.49)
-		(size 24.13 10.16)
+		(size 24.13 13.97)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3105,7 +3163,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "20f0e664-d978-4011-b64d-ec90fb1066fa")
-		(property "Sheetname" "Thermistor"
+		(property "Sheetname" "Thermistor1"
 			(at 127 109.7784 0)
 			(effects
 				(font
@@ -3115,7 +3173,7 @@
 			)
 		)
 		(property "Sheetfile" "Thermistor.kicad_sch"
-			(at 127 121.2346 0)
+			(at 127 125.0446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3123,9 +3181,9 @@
 				(justify left top)
 			)
 		)
-		(pin "R_Thermistor" input
-			(at 127 114.3 180)
-			(uuid "d01f1d80-72f5-420c-a14b-83decd5d9bb5")
+		(pin "AGND" input
+			(at 127 121.92 180)
+			(uuid "eba095a2-890d-48b9-bc68-b2224cda253f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3133,9 +3191,19 @@
 				(justify left)
 			)
 		)
-		(pin "AGND" input
-			(at 127 118.11 180)
-			(uuid "eba095a2-890d-48b9-bc68-b2224cda253f")
+		(pin "R_Thermistor1" input
+			(at 127 114.3 180)
+			(uuid "8a8a5394-4a14-4d36-9fb8-a892374d5b5b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "R_Thermistor2" input
+			(at 127 116.84 180)
+			(uuid "93d2dc56-4f77-4a93-89c2-77a4490e1a3e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3153,7 +3221,7 @@
 	)
 	(sheet
 		(at 127 82.55)
-		(size 24.13 11.43)
+		(size 24.13 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3177,7 +3245,7 @@
 			)
 		)
 		(property "Sheetfile" "heater.kicad_sch"
-			(at 127 94.5646 0)
+			(at 127 100.9146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3196,8 +3264,28 @@
 			)
 		)
 		(pin "bat_heater" input
-			(at 127 90.17 180)
+			(at 127 88.9 180)
 			(uuid "ba280904-1c5e-411d-883d-dc324d0feee5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL" input
+			(at 127 96.52 180)
+			(uuid "3939dccd-d076-4392-b006-d0e197551f22")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" input
+			(at 127 93.98 180)
+			(uuid "ccd99102-d4f6-4f21-8cb8-9f6136054ed1")
 			(effects
 				(font
 					(size 1.27 1.27)
