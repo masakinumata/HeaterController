@@ -660,6 +660,10 @@
     [
       "20f0e664-d978-4011-b64d-ec90fb1066fa",
       "Thermistor1"
+    ],
+    [
+      "2fb4b521-eb6d-4384-a8b3-42ed8cce9343",
+      "BME280"
     ]
   ],
   "text_variables": {}

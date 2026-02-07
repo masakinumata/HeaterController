@@ -1991,6 +1991,18 @@
 		(color 0 0 0 0)
 		(uuid "6cfce2ac-ab09-4a49-afec-b2093e37b80f")
 	)
+	(junction
+		(at 99.06 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1cc9591-231c-4a72-bc20-0fbdbaf0a73b")
+	)
+	(junction
+		(at 97.79 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1c6181d-8b00-4582-a06d-c0e1c983a392")
+	)
 	(no_connect
 		(at 90.17 93.98)
 		(uuid "0b40e723-c51a-4878-beea-23ed0feb4840")
@@ -2109,6 +2121,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 66.04) (xy 97.79 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06ac88fe-e42c-47df-b888-ac1d16ce07b1")
+	)
+	(wire
+		(pts
 			(xy 109.22 88.9) (xy 127 88.9)
 		)
 		(stroke
@@ -2199,6 +2221,26 @@
 	)
 	(wire
 		(pts
+			(xy 127 71.12) (xy 99.06 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dae0c94-dbbe-47a9-a428-9de55dfb73d9")
+	)
+	(wire
+		(pts
+			(xy 99.06 71.12) (xy 99.06 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86fb38f0-a95e-4ce0-bbe4-180b8f62ca28")
+	)
+	(wire
+		(pts
 			(xy 109.22 111.76) (xy 109.22 88.9)
 		)
 		(stroke
@@ -2206,6 +2248,16 @@
 			(type default)
 		)
 		(uuid "99b7fa30-48bd-4071-86b2-5196300e739b")
+	)
+	(wire
+		(pts
+			(xy 97.79 66.04) (xy 127 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a768ad7b-937a-402d-b501-d5f88392407b")
 	)
 	(wire
 		(pts
@@ -3215,6 +3267,68 @@
 			(project "heater-controller"
 				(path "/10d663fd-57cf-4e41-a739-41ba32dcef00"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 60.96)
+		(size 24.13 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2fb4b521-eb6d-4384-a8b3-42ed8cce9343")
+		(property "Sheetname" "BME280"
+			(at 127 60.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Pressure.kicad_sch"
+			(at 127 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "I2C_SCL" bidirectional
+			(at 127 66.04 180)
+			(uuid "e5d2eda6-f314-4c07-8525-c868329c5181")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C_SDA" bidirectional
+			(at 127 71.12 180)
+			(uuid "5cb81732-fedd-49a1-8ad7-8186e2013859")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "heater-controller"
+				(path "/10d663fd-57cf-4e41-a739-41ba32dcef00"
+					(page "4")
 				)
 			)
 		)
