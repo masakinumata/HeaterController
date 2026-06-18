@@ -1,0 +1,24 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+B101,Board_1U_60x60,1,~,
+"C101, C102, C103",C_Disc_D5.1mm_W3.2mm_P5.00mm,3,10uF,C19702
+F101,C_Disc_D5.1mm_W3.2mm_P5.00mm,1,Polyfuse,
+J101,JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,1,THR1,
+J102,JST_VH_B2P-VH-B_1x02_P3.96mm_Vertical,1,HeaterLiPo,
+J103,JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,1,THR2,
+J104,JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical,1,INA226,
+J105,PinSocket_1x05_P2.54mm_Vertical,1,INA226_IF,
+J106,JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,1,THR3,
+J107,JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal,1,Heater,
+J108,JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,1,MainBattery,
+J109,PinSocket_1x05_P2.54mm_Vertical,1,TPS63802_IN,
+J110,PinSocket_1x05_P2.54mm_Vertical,1,TPS63802_OUT,
+J111,PinSocket_1x10_P2.54mm_Vertical,1,AE-MICRO-SD-DIP,
+J112,PinHeader_1x04_P2.54mm_Vertical,1,Conn_01x04,
+LED101,LED_D3.0mm_FlatTop,1,Heater,C2296
+Q101,TSOT-23_HandSoldering,1,NMOS,
+"R101, R105, R107",R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,3,120,C25079
+"R102, R106, R108, R110",R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,4,10k,C25744
+"R103, R104, R112, R113, R114, R115, R116",R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,7,10k,
+R109,R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,1,510,C25123
+R111,R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,1,1k,C25123
+U101,ESP32S3_devkit,1,ESP32S3 Devkit,
